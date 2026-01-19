@@ -12,14 +12,14 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    sensors: sensors {
+    sensors {
         compatible = "zmk,keymap-sensors";
         triggers_per_rotation = <12>;
         sensors = <&left_encoder &right_encoder>;
-        left_encoder: left_encoder {
+        left_encoder: encoder_left {
             label = "LEFT_ENCODER";
         };
-        right_encoder: right_encoder {
+        right_encoder: encoder_right {
             label = "RIGHT_ENCODER";
         };
     };
