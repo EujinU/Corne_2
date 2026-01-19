@@ -14,7 +14,6 @@
 / {
     sensors {
         compatible = "zmk,keymap-sensors";
-        triggers_per_rotation = <12>;
         sensors = <&left_encoder &right_encoder>;
         left_encoder: encoder_left {
             label = "LEFT_ENCODER";
